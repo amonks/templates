@@ -1,17 +1,21 @@
 {
-  "name": "slush-<%= name %>",
+  "name": "slush-node-lambda",
   "author": {
     "name": "Andrew Monks",
     "email": "a@monks.co",
     "url": "http://monks.co"
   },
   "version": "0.0.1",
+  "description": "",
   "main": "slushfile.js",
-  "private": true,
-  "dependencies": {
-  },
   "scripts": {
     "start": "npm install -g ./"
+  },
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-template": "^3.0.0",
+    "path": "^0.11.14"
   },
   "keywords": [
     "slushgenerator"
