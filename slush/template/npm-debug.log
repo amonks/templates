@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ajm/.nvm/versions/io.js/v3.3.0/bin/iojs',
+1 verbose cli   '/Users/ajm/.nvm/versions/io.js/v3.3.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   './' ]
+2 info using npm@2.13.3
+3 info using node@v3.3.0
+4 verbose install initial load of /Users/ajm/.nvm/versions/io.js/v3.3.0/lib/package.json
+5 verbose readDependencies loading dependencies from /Users/ajm/.nvm/versions/io.js/v3.3.0/lib/package.json
+6 silly cache add args [ './', null ]
+7 verbose cache add spec ./
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: './',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: './',
+8 silly cache add   spec: '/Users/ajm/Dropbox/~/Desktop/templates/slush/template',
+8 silly cache add   type: 'directory' }
+9 error addLocal Could not install /Users/ajm/Dropbox/~/Desktop/templates/slush/template
+10 verbose stack Error: Invalid name: "<%= name %>"
+10 verbose stack     at ensureValidName (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:331:15)
+10 verbose stack     at Object.module.exports.fixNameField (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:210:5)
+10 verbose stack     at /Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+10 verbose stack     at Array.forEach (native)
+10 verbose stack     at normalize (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+10 verbose stack     at final (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:338:5)
+10 verbose stack     at then (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+10 verbose stack     at ReadFileContext.callback (/Users/ajm/.nvm/versions/io.js/v3.3.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:284:20)
+10 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (evalmachine.<anonymous>:303:13)
+11 verbose cwd /Users/ajm/Dropbox/~/Desktop/templates/slush/template
+12 error Darwin 15.3.0
+13 error argv "/Users/ajm/.nvm/versions/io.js/v3.3.0/bin/iojs" "/Users/ajm/.nvm/versions/io.js/v3.3.0/bin/npm" "install" "-g" "./"
+14 error node v3.3.0
+15 error npm  v2.13.3
+16 error Invalid name: "<%= name %>"
+17 error If you need help, you may report this error at:
+17 error     <https://github.com/npm/npm/issues>
+18 verbose exit [ 1, true ]

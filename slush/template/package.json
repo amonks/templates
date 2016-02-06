@@ -1,0 +1,17 @@
+{
+  "name": "slush-<%= name %>",
+  "author": {
+    "name": "Andrew Monks",
+    "email": "a@monks.co",
+    "url": "http://monks.co"
+  },
+  "version": "0.0.1",
+  "main": "slushfile.js",
+  "private": true,
+  "dependencies": {
+  },
+  "keywords": [
+    "slushgenerator"
+  ],
+  "preferGlobal": "true"
+}
